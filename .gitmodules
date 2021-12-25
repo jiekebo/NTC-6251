@@ -10,3 +10,6 @@
 [submodule "ALPS-switch"]
 	path = ALPS-switch
 	url = git@github.com:jiekebo/ALPS-switch.git
+[submodule "Kicad-STM32"]
+	path = Kicad-STM32
+	url = https://github.com/piit79/Kicad-STM32.git
