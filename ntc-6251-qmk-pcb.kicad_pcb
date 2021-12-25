@@ -10963,7 +10963,7 @@
       (net 138 "Net-(U1-Pad41)"))
     (pad 44 thru_hole circle (at 3.812 44.449 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 139 "Net-(U1-Pad44)"))
-    (model "${KIPRJMOD}/Kicad-STM32-master/Packages3d/blackpill v2.0.step"
+    (model "${KIPRJMOD}/Kicad-STM32/Packages3d/blackpill v2.0.step"
       (offset (xyz 7.6 -25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -12387,7 +12387,6 @@
   (gr_line (start 35.5 52.51) (end 467.5 52.51) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 35.5 161.625) (end 35.5 52.51) (layer Edge.Cuts) (width 0.1))
 
-  (segment (start 358.65 143.75) (end 361.7 140.7) (width 0.25) (layer F.Cu) (net 114) (tstamp 61C80237))
   (segment (start 39.44 58.85) (end 39.44 64.89) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 41.02 66.47) (end 43.85 66.47) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 39.44 64.89) (end 41.02 66.47) (width 0.25) (layer F.Cu) (net 1))
@@ -12796,6 +12795,7 @@
   (segment (start 83.65 68.6) (end 77.35 74.9) (width 0.25) (layer B.Cu) (net 113))
   (segment (start 90.56 68.6) (end 83.65 68.6) (width 0.25) (layer B.Cu) (net 113))
   (segment (start 100.86 58.3) (end 90.56 68.6) (width 0.25) (layer B.Cu) (net 113))
+  (segment (start 358.65 143.75) (end 361.7 140.7) (width 0.25) (layer F.Cu) (net 114) (tstamp 61C80237))
   (segment (start 96.389284 89.345648) (end 105.703636 98.66) (width 0.25) (layer B.Cu) (net 114))
   (segment (start 96.389284 79.63) (end 96.389284 89.345648) (width 0.25) (layer B.Cu) (net 114))
   (segment (start 110.538 103.494364) (end 110.538 117.7) (width 0.25) (layer B.Cu) (net 114))
