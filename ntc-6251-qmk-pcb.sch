@@ -2195,19 +2195,19 @@ Text GLabel 6650 9600 0    50   Input ~ 0
 Col5
 Text GLabel 6650 9700 0    50   Input ~ 0
 Col6
-Text GLabel 6650 9800 0    50   Input ~ 0
-Col7
-Text GLabel 6650 9900 0    50   Input ~ 0
-Col8
-Text GLabel 6650 10000 0    50   Input ~ 0
-Col9
 Text GLabel 8450 10000 2    50   Input ~ 0
-Col10
+Col7
 Text GLabel 8450 9900 2    50   Input ~ 0
-Col11
+Col8
 Text GLabel 8450 9800 2    50   Input ~ 0
-Col12
+Col9
 Text GLabel 8450 9700 2    50   Input ~ 0
+Col10
+Text GLabel 8450 9600 2    50   Input ~ 0
+Col11
+Text GLabel 8450 9500 2    50   Input ~ 0
+Col12
+Text GLabel 8450 9400 2    50   Input ~ 0
 Col13
 Wire Wire Line
 	6000 2400 6000 3050
@@ -3118,17 +3118,6 @@ F 3 "~" H 12750 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B J1
-U 1 1 61E577A0
-P 12150 4850
-F 0 "J1" H 12207 5317 50  0000 C CNN
-F 1 "USB_B" H 12207 5226 50  0000 C CNN
-F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 12300 4800 50  0001 C CNN
-F 3 " ~" H 12300 4800 50  0001 C CNN
-	1    12150 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L ntc-6251-qmk-pcb-rescue:YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout-YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout U1
 U 1 1 61C1A754
 P 7550 9000
@@ -3142,13 +3131,13 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 61C3454D
-P 12150 5250
-F 0 "#PWR0101" H 12150 5000 50  0001 C CNN
-F 1 "GND" H 12155 5077 50  0000 C CNN
-F 2 "" H 12150 5250 50  0001 C CNN
-F 3 "" H 12150 5250 50  0001 C CNN
-	1    12150 5250
-	1    0    0    -1  
+P 12050 4800
+F 0 "#PWR0101" H 12050 4550 50  0001 C CNN
+F 1 "GND" H 12055 4627 50  0000 C CNN
+F 2 "" H 12050 4800 50  0001 C CNN
+F 3 "" H 12050 4800 50  0001 C CNN
+	1    12050 4800
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0102
@@ -3172,9 +3161,9 @@ F 3 "" H 8450 8100 50  0001 C CNN
 	1    8450 8100
 	0    1    1    0   
 $EndComp
-Text GLabel 12450 4850 2    50   Input ~ 0
+Text GLabel 12050 4900 2    50   Input ~ 0
 D+
-Text GLabel 12450 4950 2    50   Input ~ 0
+Text GLabel 12050 5000 2    50   Input ~ 0
 D-
 Text GLabel 6650 8800 0    50   Input ~ 0
 D-
@@ -3183,12 +3172,12 @@ D+
 $Comp
 L power:+5V #PWR0104
 U 1 1 61C4D745
-P 12450 4650
-F 0 "#PWR0104" H 12450 4500 50  0001 C CNN
-F 1 "+5V" V 12465 4778 50  0000 L CNN
-F 2 "" H 12450 4650 50  0001 C CNN
-F 3 "" H 12450 4650 50  0001 C CNN
-	1    12450 4650
+P 12050 5100
+F 0 "#PWR0104" H 12050 4950 50  0001 C CNN
+F 1 "+5V" V 12065 5228 50  0000 L CNN
+F 2 "" H 12050 5100 50  0001 C CNN
+F 3 "" H 12050 5100 50  0001 C CNN
+	1    12050 5100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3340,4 +3329,15 @@ Wire Wire Line
 Connection ~ 7350 6300
 Wire Wire Line
 	7350 6300 7350 6950
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 61CBF66C
+P 11850 4900
+F 0 "J1" H 11958 5181 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 11958 5090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 11850 4900 50  0001 C CNN
+F 3 "~" H 11850 4900 50  0001 C CNN
+	1    11850 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
