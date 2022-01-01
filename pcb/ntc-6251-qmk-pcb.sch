@@ -3118,7 +3118,7 @@ F 3 "~" H 12750 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ntc-6251-qmk-pcb-rescue:YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout-YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout U1
+L YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout:YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout U1
 U 1 1 61C1A754
 P 7550 9000
 F 0 "U1" H 7550 10165 50  0000 C CNN

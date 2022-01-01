@@ -107,11 +107,11 @@ X ROW 2 -50 -150 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ntc-6251-qmk-pcb-rescue_YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout-YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout
+# YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout_YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout
 #
-DEF ntc-6251-qmk-pcb-rescue_YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout-YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout U 0 40 Y Y 1 F N
+DEF YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout_YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout U 0 40 Y Y 1 F N
 F0 "U" -690 1100 50 H V C CNN
-F1 "ntc-6251-qmk-pcb-rescue_YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout-YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout" 360 1100 50 H V C CNN
+F1 "YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout_YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout" 360 1100 50 H V C CNN
 F2 "Kicad-STM32:YAAJ_WeAct_BlackPill_SWD_2" 10 -1750 50 H I C CNN
 F3 "" 800 -1000 50 H I C CNN
 DRAW
