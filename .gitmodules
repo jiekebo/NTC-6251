@@ -1,15 +1,15 @@
 [submodule "MX_Alps_Hybrid"]
-	path = MX_Alps_Hybrid
+	path = libs/MX_Alps_Hybrid
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid.git
 [submodule "kicad_lib_tmk"]
-	path = kicad_lib_tmk
+	path = libs/kicad_lib_tmk
 	url = git@github.com:tmk/kicad_lib_tmk.git
 [submodule "keyboard_parts.pretty"]
-	path = keyboard_parts.pretty
+	path = libs/keyboard_parts.pretty
 	url = git@github.com:tmk/keyboard_parts.pretty.git
 [submodule "ALPS-switch"]
-	path = ALPS-switch
+	path = libs/ALPS-switch
 	url = git@github.com:jiekebo/ALPS-switch.git
 [submodule "Kicad-STM32"]
-	path = Kicad-STM32
+	path = libs/Kicad-STM32
 	url = https://github.com/piit79/Kicad-STM32.git

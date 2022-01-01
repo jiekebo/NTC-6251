@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name YAAJ_WeAct_BlackPill_Part_Like)(type Legacy)(uri ${KIPRJMOD}/Kicad-STM32/Symbols/YAAJ_WeAct_BlackPill_Part_Like.lib)(options "")(descr ""))
+  (lib (name YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout)(type Legacy)(uri ${KIPRJMOD}/Kicad-STM32/Symbols/YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout.lib)(options "")(descr ""))
+  (lib (name ntc-6251-qmk-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/ntc-6251-qmk-pcb-rescue.lib)(options "")(descr ""))
+)
