@@ -1,0 +1,5 @@
+Bug list
+
+1. Issue with pinout of controller, two columns assigned to non-gpio pins. Col7 assigned to vbat and col11 to rst. Will be fixed by applying lacquer to pcb and soldering patch wire between usable pins 
+
+2. F1-F4 keys might be misaligned, will have to check with the board when arrives. F1 seems to align with the 2 key, but now they differ by 0.5mm, might be within tolerance, but still need to fix it anyway

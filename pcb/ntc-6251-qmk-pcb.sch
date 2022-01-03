@@ -2191,7 +2191,7 @@ Text GLabel 6650 9600 0    50   Input ~ 0
 Col5
 Text GLabel 6650 9700 0    50   Input ~ 0
 Col6
-Text GLabel 8450 10000 2    50   Input ~ 0
+Text GLabel 6650 8700 0    50   Input ~ 0
 Col7
 Text GLabel 8450 9900 2    50   Input ~ 0
 Col8
@@ -2199,7 +2199,7 @@ Text GLabel 8450 9800 2    50   Input ~ 0
 Col9
 Text GLabel 8450 9700 2    50   Input ~ 0
 Col10
-Text GLabel 8450 9600 2    50   Input ~ 0
+Text GLabel 8450 9300 2    50   Input ~ 0
 Col11
 Text GLabel 8450 9500 2    50   Input ~ 0
 Col12
@@ -3337,4 +3337,8 @@ Connection ~ 5250 4750
 Connection ~ 5250 4100
 Connection ~ 5250 3450
 Connection ~ 5250 2800
+Text Notes 8150 10350 0    50   ~ 0
+Col7 was placed on VBat\nCol11 was placed on RES
+Text Notes 8150 10450 0    50   ~ 0
+Consider moving Col8 from C13 since the led blinks when active
 $EndSCHEMATC
