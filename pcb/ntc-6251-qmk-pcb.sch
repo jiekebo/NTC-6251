@@ -3338,11 +3338,11 @@ Connection ~ 5250 4100
 Connection ~ 5250 3450
 Connection ~ 5250 2800
 Text Notes 5800 10500 0    50   ~ 0
-Col7 was placed on VBat\nCol11 was placed on RES
+Col7 was placed on VBat\nCol11 was placed on RES and A2 was unoccupied
 Text Notes 5800 10600 0    50   ~ 0
-Consider moving Col8 from C13 since the led blinks when active
+Consider moving Col8 from C13 since the led blinks when active. Tested with alps switch and doesn't affect function
 Text Notes 5800 10700 0    50   ~ 0
-A0 is connected to the user button, pressing it connects the whole column/row to gnd, effectively pressing all buttons...
+A0 is connected to the user button, pressing it connects the whole column/row to gnd, effectively pressing all buttons...\n
 NoConn ~ 8450 10000
 NoConn ~ 8450 9600
 NoConn ~ 6650 10000
