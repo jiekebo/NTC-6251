@@ -3339,4 +3339,6 @@ Connection ~ 5250 3450
 Connection ~ 5250 2800
 Text Notes 8150 10350 0    50   ~ 0
 Col7 was placed on VBat\nCol11 was placed on RES
+Text Notes 8150 10450 0    50   ~ 0
+Consider moving Col8 from C13 since the led blinks when active
 $EndSCHEMATC

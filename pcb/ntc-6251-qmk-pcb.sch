@@ -3337,8 +3337,21 @@ Connection ~ 5250 4750
 Connection ~ 5250 4100
 Connection ~ 5250 3450
 Connection ~ 5250 2800
-Text Notes 8150 10350 0    50   ~ 0
+Text Notes 5800 10500 0    50   ~ 0
 Col7 was placed on VBat\nCol11 was placed on RES
-Text Notes 8150 10450 0    50   ~ 0
+Text Notes 5800 10600 0    50   ~ 0
 Consider moving Col8 from C13 since the led blinks when active
+Text Notes 5800 10700 0    50   ~ 0
+A0 is connected to the user button, pressing it connects the whole column/row to gnd, effectively pressing all buttons...
+NoConn ~ 8450 10000
+NoConn ~ 8450 9600
+NoConn ~ 6650 10000
+NoConn ~ 6650 9900
+NoConn ~ 6650 9800
+NoConn ~ 6650 8600
+NoConn ~ 6650 8500
+NoConn ~ 6650 8400
+NoConn ~ 6650 8300
+NoConn ~ 6650 8200
+NoConn ~ 6650 8100
 $EndSCHEMATC
